@@ -1,0 +1,51 @@
+.cntrcontent
+{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.text-center
+{
+    text-align: center;
+}
+.git{
+				border-style: solid;	
+    			border-width: 2px;
+    			border-radius: 	5px;
+    			width: 25%;
+    			padding: 2%;
+    			margin: 2%;
+    		}
+    		.h3{
+    			border-style: solid;	
+    			border-width: 2px;
+    			border-radius: 	5px;
+    		}
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+
+a {
+  color: #00B7FF;
+}
+
+.row
+{
+padding: 3%;
+background-color: lightgray;
+}
+.col-sm{
+border-style: solid;
+border-width: 2px;
+padding: 2%;
+margin: 2%;
+border-radius: 15px;
+background-color: lightgray;
+text-align: center;
+}
+.form{
+    			padding: 5%;
+    			width: 50%;
+    		}
