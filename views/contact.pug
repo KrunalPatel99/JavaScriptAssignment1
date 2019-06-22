@@ -5,19 +5,20 @@ block content
   //Author's Name: Krunalkumar Patel
   // Website Name: http://portfolio.krunapatel.info:3000
   //description: view contact page
-  img.img-fluid(src='images/contact.png', alt='Responsive image')
-  .cntrcontent
-  input.form-control(type='text', name='fullName', placeholder='Enter Your Full Name')
-  br
-  input.form-control(type='email', name='email', placeholder='Enter Your Email')
-  br
-  input.form-control(type='tel', name='tel', placeholder='Enter Your Mobile Phone Number')
-  br
-  input.form-control(type='text', name='website', placeholder='Enter Your Website address if any')
-  br
-  textarea.form-control(name='msg', placeholder='Enter Your Message which you want to send')
-  br
-  input.btn.btn-primary(type='submit', name='submit', value='Send Message')
+  form(action="/submitrequest", method="post")
+      img.img-fluid(src='images/contact.png', alt='Responsive image')
+      .cntrcontent
+      input.form-control(type='text', name='fullName', placeholder='Enter Your Full Name')
+      br
+      input.form-control(type='email', name='email', placeholder='Enter Your Email')
+      br
+      input.form-control(type='tel', name='tel', placeholder='Enter Your Mobile Phone Number')
+      br
+      input.form-control(type='text', name='website', placeholder='Enter Your Website address if any')
+      br
+      textarea.form-control(name='msg', placeholder='Enter Your Message which you want to send')
+      br
+      input.btn.btn-primary(type='submit', name='submit', value='Send Message')
   //added footer
   include partials/footer.pug
 
